@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="janis caceres">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--ICONS-->
+<script src="https://kit.fontawesome.com/c8102e27c1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To do list<hr></h1>
+        <form id="form" class="tarea-form">
+            <label id="label" for="tarea">Nueva tarea</label>
+            <div class="form-container">
+                <input type="text" id="input" name="input" placeholder="Escribe tu tarea" required>
+            <button type="submit">Agregar</button>
+            </div>
+        </form>
+    </div>
+    <div id="tareas" class="tareas">
+    </div>
+    <div>
+        <h3 class="contador" id="total-tasks" ></h3>
+        <h3 class="contador" id="completed-tasks" ></h3>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html> 
