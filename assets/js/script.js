@@ -6,9 +6,9 @@ const totalTasks = document.getElementById("total-tasks");
 const completedTasks = document.getElementById("completed-tasks");
 
 let tasks = [
-  { id: 5, description: "ir al mercado", check: false },
-  { id: 10, description: "estudiar para la prueba", check: false },
-  { id: 15, description: "pasear a toby", check: false },
+  { id: 5, description: "Ir al supermercado", check: false },
+  { id: 10, description: "Estudiar para la prueba", check: false },
+  { id: 15, description: "Pasear a Shippo", check: false },
 ];
 
 let editingTaskId = null;
